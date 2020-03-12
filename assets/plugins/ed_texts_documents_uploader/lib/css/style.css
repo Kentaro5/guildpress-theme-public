@@ -1,0 +1,65 @@
+table{
+	border-collapse: collapse;
+  border-spacing: 0;
+}
+.thead_color{
+	background: #f1f1f1;
+    border: 1px solid #e5e5e5;
+}
+
+.tbody_color{
+	background: #f9f9f9;
+    padding: 8px;
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+}
+
+.pl10{
+  padding-left: 10px !important;
+}
+
+.file-form-table{
+	width: 100%;
+	text-align: left;
+}
+
+.pl8{
+	padding-left: 8px !important;	
+}
+
+.pb8{
+	padding-bottom: 8px !important;		
+}
+
+.font16{
+	font-size: 16px  !important;
+}
+
+.file_input{
+   display: inline-block;
+   overflow: hidden;
+   position: relative;
+   padding: 8px;
+   border: 1px solid #59b1eb;
+   color: #555;
+   border-color: #ccc;
+   background: #f7f7f7;
+   box-shadow: 0 1px 0 #ccc;
+}
+
+.file_input input[type="file"]{
+   opacity: 0;
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+   position: absolute;
+   right: 0;
+   top: 0;
+   margin: 0;
+   font-size: 100px;
+   cursor: pointer;
+}
+
+.mt22{
+	margin-top: 22px;
+}
+
